@@ -1,0 +1,12 @@
+#4
+def multiply_by(n):
+    def multiply(x):
+        return x * n
+    return multiply
+multiply_by_5 = multiply_by(3)
+result = multiply_by_5(10)
+print(result)
+
+multiply_by_3 = multiply_by(3)
+result = multiply_by_3(5)
+print(result)
